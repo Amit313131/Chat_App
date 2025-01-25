@@ -1,0 +1,29 @@
+{
+  "name": "mern_chat_app",
+  "version": "1.0.0",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node backend/server.js"
+  },
+  "keywords": [],
+  "author": "Amit Gupta",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "colors": "^1.4.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "express-async-handler": "^1.2.0",
+    "http": "^0.0.1-security",
+    "json": "^11.0.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.7.1",
+    "nodemon": "^3.1.7",
+    "socket.io": "^4.8.1",
+    "token": "^0.1.0",
+    "web": "^0.0.2"
+  }
+}

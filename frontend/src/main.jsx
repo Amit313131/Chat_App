@@ -9,7 +9,7 @@ import {BrowserRouter} from 'react-router-dom'
 import ChatProvider from './Context/ChatProvider'
 import axios from 'axios'
 
-axios.defaults.baseURL = 'http://localhost:4000';
+axios.defaults.baseURL = 'https://chat-app-1-blyr.onrender.com';
 
 createRoot(document.getElementById('root')).render(
   <ChatProvider>
